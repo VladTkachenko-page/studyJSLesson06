@@ -1,7 +1,7 @@
 'use strict'
 
 function guessNumber() {
-  const winNumber = 72;
+  let winNumber = Math.floor(Math.random() * 100) + 1;
   let i = 10;
   
   let start = function() {
